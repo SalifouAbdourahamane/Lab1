@@ -1,0 +1,27 @@
+## What is a URL?  
+
+A **URL (Uniform Resource Locator)** is the address used to locate and access resources on the internet, such as web pages, images, or videos. It serves as a unique identifier for each resource, allowing browsers to retrieve and display content.  
+
+### Components of a URL  
+
+A URL consists of several technical components:  
+
+- **Scheme**: Specifies the protocol (e.g., `http`, `https`, `ftp`). The standard for web pages is **https**.  
+- **Authority**: Includes the domain (e.g., `example.com`) and an optional port (e.g., `:8080`), separated by `://`.  
+- **Path**: Defines the location of the resource on the server (e.g., `/about`).  
+- **Parameters**: Optional query strings (e.g., `?user=123`) that provide additional information to the server.  
+- **Anchor**: A fragment identifier (e.g., `#contact`) that points to a specific section within the resource.  
+
+### Examples of URLs  
+
+- **Absolute URL**: `https://example.com/about?user=123#contact`  
+- **Relative URL**: `/about` (assumes the same scheme and domain as the current page).  
+
+### Technical Considerations for URLs  
+
+- **Semantic URLs**: Using meaningful words (e.g., `/blog/how-to-code`) improves user experience and search engine optimization (SEO).  
+- **Encoding**: Special characters in URLs must be encoded (e.g., spaces as `%20`).  
+- **Fragments**: Anchors (e.g., `#section`) are not sent to the server but help browsers navigate within a page.  
+
+URLs are fundamental to the web, enabling seamless navigation, linking, and resource sharing across the internet.  
+
